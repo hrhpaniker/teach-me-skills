@@ -1,14 +1,27 @@
+.first-block {
+    width: 100%;
+}
+
+.blue-block {
+    display: flex;
+}
+
 .blue {
-    display: inline-flex;
+    display: flex;
     background-color: cornflowerblue;
     height: 160px;
-    width: 19.8%;
+    width: 20%;
     padding: 0 1px 0 0;
-    margin-right: -2.4px;
+    margin-right: 1.5px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
 }
 
 .red-block {
-    width: 19.8%;
+    width: 19.9%;
 }
 
 .red1 {
@@ -32,39 +45,58 @@
     margin: 6px 8px;
 }
 
+.py-block {
+    width: 38.5%;
+    margin-right: 0px;
+}
+
+.purple-block {
+    display: flex;
+    margin-right: 0px;
+}
+
 .purple {
-    display: inline-flex;
     background-color: rebeccapurple;
     height: 220px;
-    width: 189.5px;
-    margin: 6px -2.4px 8px 0;
+    width: 32.5%;
+    margin: 6px 2.4px 8px 1px;
+}
+
+.yellow-block {
+    display: flex;
 }
 
 .yellow {
-    display: inline-flex;
     background-color: yellow;
-    width: 283px;
-    height: 343px;
+    width: 49%;
+    height: 346px;
+    margin-right: 2.4px;
+}
+
+.border2 {
+    background-color: black;
+    height: 575px;
+    width: 1px;
+    margin: 6px 5px 0px 0px;
+}
+
+.light-blue-border-block {
+    width: 40%;
+}
+
+.light-blue-block{
+    display: flex;
 }
 
 .light-blue {
     background-color: #85FFFF;
-    height: 170px;
-    width: 296px;
-    margin: 6px 4px 6px 0;
+    height: 173px;
+    width: 54.5%;
+    margin: 6px 0px 6px 3px;
 }
-.border2 {
+.border3 {
     background-color: black;
-    width: 596px;
+    width: 99%;
     height: 0.5px;
-    margin: 10px 0;
-}
-
-.footer {
-    display: flex;
-    width: 100%;
-}
-
-.light-blue-block {
-    display: flex;
+    margin: 8px 4px;
 }
