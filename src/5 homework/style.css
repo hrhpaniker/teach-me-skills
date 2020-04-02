@@ -1,0 +1,36 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 15%);
+    grid-template-rows: repeat(3, 32%);
+    grid-gap: 20px;}
+
+div {
+    height: 230px;
+    background-color: white;
+    border: 5px solid lightgrey;
+    padding: 5px;
+}
+
+.img1 {
+    width: 100%;
+    height: 70%;
+}
+
+.p1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgrey;
+    margin: 5px 0;
+    padding-bottom: 5px;
+}
+.p2 {
+    margin: 7px 0;
+    text-align: end;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+}
+
+
