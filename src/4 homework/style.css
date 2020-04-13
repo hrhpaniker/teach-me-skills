@@ -87,8 +87,6 @@ body {
 
 .central-upper-block {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
      "small big big"
      "small2 big big"
