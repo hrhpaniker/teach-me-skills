@@ -20,6 +20,8 @@
     padding-right: 7px;
     margin-top: 6px;
     margin-right: 7px;
+    overflow-y: auto;
+    height: 574px;
 }
 
 .red1 {
@@ -30,7 +32,7 @@
 
 .red2 {
     background-color: red;
-    height: 239px;
+    min-height: 239px;
     margin-bottom: 8px;
 }
 
@@ -43,14 +45,15 @@
 
 .purple-block {
     display: flex;
-    margin-right: 0px;
+    margin-right: 0;
+    width: 577px;
 }
 
 .purple {
     background-color: rebeccapurple;
     height: 220px;
     width: 32.5%;
-    margin: 0px 2.4px 8px 1px;
+    margin: 0 2.4px 8px 1px;
 }
 
 .yellow-block {
