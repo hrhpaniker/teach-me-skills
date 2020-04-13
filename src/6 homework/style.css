@@ -1,0 +1,351 @@
+header {
+    width: 1015px;
+    height: 185px;
+    margin: 0 auto;
+}
+
+.first-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background: none;
+    border-style: none;
+}
+
+.facebook, .twitter, .instagram {
+    width: 20px;
+    height: 3%;
+}
+
+.social {
+    width: 15px;
+    height: 35%;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    width: 1015px;
+    margin-top: 25px;
+}
+
+.first-block {
+    display: grid;
+    grid-template-areas:
+    "main help"
+    "main number";
+}
+
+.mobile {
+    width: 40px;
+    height: 35px;
+    grid-area: main;
+}
+
+.help {
+    height: 100%;
+    grid-area: help;
+}
+
+.number {
+    margin: 0;
+    height: 100%;
+    grid-area: number;
+}
+
+.title {
+    height: 40px;
+    margin: 0;
+}
+
+input {
+    width: 160px;
+    height: 25px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid lightgrey;
+}
+
+.third-header-menu {
+    width: 1020px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav:before {
+    content: '';
+    position: absolute;
+    background-color: lightgrey;
+    left: 0;
+    right: 0;
+    top: 100px;
+    height: 2px;
+}
+
+nav:after {
+    content: '';
+    position: absolute;
+    background-color: lightgrey;
+    left: 0;
+    right: 0;
+    height: 2px;
+}
+
+.navigation {
+    padding: 0;
+}
+
+.menu {
+    display: inline;
+    margin-right: 23px;
+}
+
+.cart {
+    width: 20px;
+    height: 3%;
+}
+
+.fourth-header {
+    display: flex;
+    justify-content: space-between;
+    width: 995px;
+    margin-top: 25px;
+}
+
+.fourth-header:after {
+    content: '';
+    position: absolute;
+    background-color: lightgrey;
+    left: 0;
+    right: 0;
+    top: 191px;
+    height: 2px;
+}
+
+.color-icon {
+    width: 18px;
+    height: 61%;
+}
+
+main {
+    width: 1015px;
+    margin: 0 auto;
+    height: 1380px;
+}
+
+.upper-block {
+    display: grid;
+    grid-template-areas:
+    "small1 big big"
+    "small2 big big"
+    "small3 big big";
+    grid-column-gap: 57px;
+    grid-row-gap: 22px;
+}
+
+.small-square1 {
+    grid-area: small1;
+    width: 130px;
+    height: 130px;
+}
+
+.small-square1:after {
+    content: '';
+    position: absolute;
+    background-color: lightgrey;
+    left: 252px;
+    right: 1073px;
+    top: 325px;
+    height: 2px;
+}
+
+.small-square2 {
+    grid-area: small2;
+    width: 130px;
+    height: 130px;
+}
+
+.small-square2:after {
+    content: '';
+    position: absolute;
+    background-color: lightgrey;
+    left: 252px;
+    right: 1073px;
+    top: 488px;
+    height: 2px;
+}
+
+.small-square3 {
+    grid-area: small3;
+    width: 130px;
+    height: 130px;
+}
+
+.small-square3:after {
+    content: '';
+    position: absolute;
+    background-color: lightgrey;
+    left: 252px;
+    right: 1073px;
+    top: 657px;
+    height: 2px;
+}
+
+.big-square {
+    grid-area: big;
+}
+
+.big-flowers{
+    width: 805px;
+    height: 465px;
+}
+
+.img-button {
+    width: 18px;
+    height: 61%;
+}
+
+.central-block {
+    margin-top: 30px;
+    display: flex;
+    overflow-y: auto;
+    height: 880px;
+}
+
+.vis-block {
+    min-height: 500px;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    width: 996px;
+    margin-top: 10px;
+}
+
+.flower {
+    min-width: 186px;
+    height: 210px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.item-flower {
+    width: 186px;
+    height: 165px;
+}
+
+.order {
+    border-radius: 42px;
+    border: 1px solid black;
+}
+
+footer {
+    height: 290px;
+    width: 1509px;
+    margin: 0 auto;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.namemail {
+    width: 191px;
+    height: 25px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid lightgrey;
+    margin-bottom: 5px;
+}
+
+.join-us {
+    border-radius: 42px;
+    background-color: lightseagreen;
+    width: 209px;
+    height: 30px;
+}
+.down-menu
+{
+    width: 230px;
+    margin-right: 25px;
+}
+
+.down-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.payment-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.payment {
+    width: 455px;
+}
+
+.site2020 {
+    width: 457px;
+}
+
+.socialmedia {
+    width: 103px;
+}
+
+.absolute {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-flowers{
+    position: absolute;
+    top: 528px;
+    right: 418px;
+    font-family: "Arial Narrow";
+    color: orange;
+
+}
+
+.order-flowers2 {
+    position: absolute;
+    top: 528px;
+    right: 349px;
+    font-family: "Arial Narrow";
+}
+
+.moneyback {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 5px 0;
+    padding: 2px 0;
+    position: absolute;
+    top: 545px;
+    right: 312px;
+
+}
+
+.shop-now {
+    border-radius: 42px;
+    border: 1px solid black;
+    width: 115px;
+    position: absolute;
+    top: 583px;
+    right: 355px;
+}
