@@ -46,29 +46,34 @@
 .purple-block {
     display: flex;
     margin-right: 0;
-    width: 577px;
+    width: 573px;
+    overflow-x: auto;
 }
 
 .purple {
     background-color: rebeccapurple;
     height: 220px;
-    width: 32.5%;
+    min-width: 188px;
     margin: 0 2.4px 8px 1px;
 }
 
 .yellow-block {
     display: flex;
+    width: 573px;
+    overflow-x: auto;
 }
 
 .yellow {
     background-color: yellow;
-    width: 49%;
+    min-width: 286px;
     height: 346px;
     margin-right: 2.4px;
 }
 
 .light-blue-border-block {
     width: 40.3%;
+    height: 635px;
+    overflow-y: auto;
 }
 
 .light-blue-block1{
@@ -77,17 +82,19 @@
     padding-bottom: 4px;
     margin-bottom: 4px;
     margin-left: 4px;
+    overflow-x: auto;
 }
 
 .light-blue-block2{
     display: flex;
     margin-left: 4px;
+    overflow-x: auto;
 }
 
 .light-blue {
     background-color: #85FFFF;
     height: 177px;
-    width: 54.5%;
+    min-width: 298px;
     margin: 6px 3px 6px 0;
 }
 
