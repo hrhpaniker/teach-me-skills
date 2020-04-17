@@ -5,6 +5,7 @@
 
 a {
     text-decoration: none;
+    color: #bcbcbc;
 }
 
 
@@ -662,6 +663,6 @@ li {
     padding-left: 135px;
 }
 
-.footer-link {
-    color: #bcbcbc;
+.li {
+    color: #bcbcbc; !important;
 }
